@@ -1,0 +1,54 @@
+name: navidrome
+
+x-daemonless:
+  title: "Navidrome"
+  icon: ":material-apps:"  # https://pictogrammers.com/library/mdi/ (material-) or https://simpleicons.org/ (simple-)
+  category: "Media Servers"
+  description: "Modern Music Server and Streamer compatible with Subsonic/Airsonic."
+  upstream_url: "https://www.navidrome.org/"
+  web_url: "https://www.navidrome.org/"
+  freshports_url: "https://www.freshports.org/multimedia/navidrome/"
+  user: "bsd"
+  mlock: false
+  community: "Discord:https://discord.gg/Kb9tkhecZT"
+  appjail: true
+
+  docs:
+    env:
+      PUID: "User ID for the application process"
+      PGID: "Group ID for the application process"
+      TZ: "Timezone for the container"
+      ND_SCANNER_SCHEDULE: "Schedule for automatic scans."
+      ND_LOGLEVEL: "Log level. Useful for troubleshooting."
+    volumes:
+      /config: "Configuration and data directory"
+      /music: "Folder where your music library is stored"
+    ports:
+      4533: "Web UI"
+
+  notes: |
+    ## First run
+    
+    If no configuration file exists when the container starts, it will generate an initial default
+    config file at `/config/config.toml`.
+
+services:
+  navidrome:
+    image: ghcr.io/daemonless/navidrome:latest
+    container_name: navidrome
+    restart: unless-stopped
+
+
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+      - ND_SCANNER_SCHEDULE="@every 1h"
+      - ND_LOGLEVEL=info
+
+    volumes:
+      - /path/to/containers/navidrome:/config
+      - /path/to/your/music/library:/music
+
+    ports:
+      - 4533:4533

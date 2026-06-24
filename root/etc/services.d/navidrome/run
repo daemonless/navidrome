@@ -1,0 +1,9 @@
+#!/bin/sh
+# Navidrome s6 service
+
+export ND_FFMPEGPATH=/usr/local/bin/ffmpeg
+export ND_MUSICFOLDER=/music
+
+cd /app
+exec /usr/local/bin/s6-setuidgid bsd \
+    /usr/local/bin/navidrome --configfile /config/config.toml --datafolder /config/data

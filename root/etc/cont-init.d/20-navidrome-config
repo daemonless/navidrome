@@ -1,0 +1,18 @@
+#!/bin/sh
+
+set -e
+set -o pipefail
+
+mkdir -p /config /config/data
+chown -R bsd:bsd /config
+
+if [ ! -f /config/config.toml ]; then
+    cat << EOF > /config/config.toml
+MusicFolder = "/music"
+LogLevel = "info"
+Address = "0.0.0.0"
+EnableGravatar = true
+FfmpegPath = "/usr/local/bin/ffmpeg"
+EOF
+    chown bsd:bsd /config/config.toml
+fi
