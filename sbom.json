@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-24T01:21:10Z",
+  "generated": "2026-06-24T17:05:13Z",
   "image": "navidrome",
   "tags": {
     "latest": {
       "app_version": "0.60.3_4",
       "arch": "amd64",
-      "generated": "2026-06-24T01:19:52Z",
+      "generated": "2026-06-24T17:03:51Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
