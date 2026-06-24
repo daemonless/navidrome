@@ -4,6 +4,7 @@
 # Full reference: https://github.com/daemonless/dbuild
 
 build:
+  pkg_name: navidrome
   variants:
     - tag: latest
       containerfile: Containerfile
