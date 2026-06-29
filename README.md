@@ -18,13 +18,11 @@ Modern Music Server and Streamer compatible with Subsonic/Airsonic.
 | **Website** | [https://www.navidrome.org/](https://www.navidrome.org/) |
 
 ## Version Tags
-
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
 | `latest` | **Upstream Binary**. Built from official release. | Most users. Matches Linux Docker behavior. |
 
 ## Prerequisites
-
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
 
 ## Deployment
@@ -51,7 +49,6 @@ services:
 ```
 
 ### AppJail Director
-
 **.env**:
 
 ```
@@ -100,7 +97,7 @@ volumes:
 **Makejail**:
 
 ```
-# Makejail 
+# Makejail
 
 ARG tag=latest
 
@@ -194,6 +191,9 @@ Access at: `http://localhost:4533`
 | `4533` | TCP | Web UI |
 
 ## First run
+
+If no configuration file exists when the container starts, it will generate an initial default
+config file at `/config/config.toml`.
 
 
 **Architectures:** amd64

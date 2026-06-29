@@ -25,7 +25,8 @@ RUN pkg update && \
     rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
 
 # Download and install navidrome
-RUN NAVIDROME_VERSION=$(pkg query -e %n=navidrome %v) && \
+RUN mkdir -p /app && \
+    NAVIDROME_VERSION=$(pkg query -e %n=navidrome %v) && \
     echo "${NAVIDROME_VERSION}" > /app/version
 
 # Copy root filesystem
