@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-07T08:49:14Z",
+  "generated": "2026-07-14T08:25:38Z",
   "image": "navidrome",
   "tags": {
     "latest": {
-      "app_version": "0.60.3_4",
+      "app_version": "0.62.0_1",
       "arch": "amd64",
-      "generated": "2026-07-07T08:47:57Z",
+      "generated": "2026-07-14T08:24:19Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -30,16 +30,8 @@
             "version": "15.0p11"
           },
           {
-            "name": "FreeBSD-clibs-lib32",
-            "version": "15.0p11"
-          },
-          {
             "name": "FreeBSD-ctf-lib",
             "version": "15.0"
-          },
-          {
-            "name": "FreeBSD-devmatch",
-            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-fetch",
@@ -134,24 +126,12 @@
             "version": "15.0p7"
           },
           {
-            "name": "Imath",
-            "version": "3.2.2_2"
-          },
-          {
             "name": "aom",
-            "version": "3.14.1"
+            "version": "3.14.1_1"
           },
           {
             "name": "bash",
-            "version": "5.3.9"
-          },
-          {
-            "name": "binutils",
-            "version": "2.44,1"
-          },
-          {
-            "name": "boost-libs",
-            "version": "1.89.0_2"
+            "version": "5.3.15"
           },
           {
             "name": "brotli",
@@ -159,11 +139,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.124"
-          },
-          {
-            "name": "cairo",
-            "version": "1.18.2,3"
+            "version": "3.125"
           },
           {
             "name": "dav1d",
@@ -175,11 +151,11 @@
           },
           {
             "name": "expat",
-            "version": "2.8.1"
+            "version": "2.8.2"
           },
           {
-            "name": "ffmpeg",
-            "version": "8.1,1"
+            "name": "ffmpeg-nox11",
+            "version": "8.1.2_1,1"
           },
           {
             "name": "fontconfig",
@@ -194,16 +170,8 @@
             "version": "1.0.16"
           },
           {
-            "name": "gcc14",
-            "version": "14.2.0_4"
-          },
-          {
-            "name": "gdk-pixbuf2",
-            "version": "2.44.1"
-          },
-          {
             "name": "gettext-runtime",
-            "version": "1.0"
+            "version": "1.0_1"
           },
           {
             "name": "giflib",
@@ -211,7 +179,7 @@
           },
           {
             "name": "glib",
-            "version": "2.84.4,2"
+            "version": "2.86.4,2"
           },
           {
             "name": "gmp",
@@ -223,23 +191,11 @@
           },
           {
             "name": "graphite2",
-            "version": "1.3.14"
+            "version": "1.3.15"
           },
           {
             "name": "harfbuzz",
-            "version": "13.2.1"
-          },
-          {
-            "name": "highway",
-            "version": "1.3.0"
-          },
-          {
-            "name": "hwdata",
-            "version": "0.405,1"
-          },
-          {
-            "name": "icu",
-            "version": "76.1,1"
+            "version": "14.2.1"
           },
           {
             "name": "indexinfo",
@@ -255,7 +211,7 @@
           },
           {
             "name": "jq",
-            "version": "1.8.1"
+            "version": "1.8.2"
           },
           {
             "name": "lame",
@@ -263,67 +219,23 @@
           },
           {
             "name": "lcms2",
-            "version": "2.19"
+            "version": "2.19.1"
           },
           {
             "name": "lerc",
-            "version": "4.0.0"
-          },
-          {
-            "name": "libX11",
-            "version": "1.8.13,1"
-          },
-          {
-            "name": "libXau",
-            "version": "1.0.12"
-          },
-          {
-            "name": "libXdmcp",
-            "version": "1.1.5"
-          },
-          {
-            "name": "libXext",
-            "version": "1.3.6,1"
-          },
-          {
-            "name": "libXfixes",
-            "version": "6.0.1"
-          },
-          {
-            "name": "libXft",
-            "version": "2.3.8"
-          },
-          {
-            "name": "libXrandr",
-            "version": "1.5.4"
-          },
-          {
-            "name": "libXrender",
-            "version": "0.9.12"
-          },
-          {
-            "name": "libXv",
-            "version": "1.0.13,1"
+            "version": "4.1.0"
           },
           {
             "name": "libass",
-            "version": "0.17.4"
+            "version": "0.17.5"
           },
           {
             "name": "libbluray",
             "version": "1.4.1,1"
           },
           {
-            "name": "libdatrie",
-            "version": "0.2.14_1"
-          },
-          {
             "name": "libdeflate",
             "version": "1.25"
-          },
-          {
-            "name": "libdrm",
-            "version": "2.4.131,1"
           },
           {
             "name": "libdvdnav",
@@ -334,16 +246,8 @@
             "version": "7.0.0"
           },
           {
-            "name": "libepoll-shim",
-            "version": "0.0.20240608"
-          },
-          {
             "name": "libffi",
-            "version": "3.5.1"
-          },
-          {
-            "name": "libglvnd",
-            "version": "1.7.0"
+            "version": "3.6.0"
           },
           {
             "name": "libiconv",
@@ -354,36 +258,16 @@
             "version": "2.3.8"
           },
           {
-            "name": "libjxl",
-            "version": "0.11.2"
+            "name": "liblz4",
+            "version": "1.10.0_2,1"
           },
           {
             "name": "libogg",
             "version": "1.3.6,4"
           },
           {
-            "name": "libpciaccess",
-            "version": "0.18.1_1"
-          },
-          {
-            "name": "libplacebo",
-            "version": "7.360.1"
-          },
-          {
-            "name": "librsvg2-rust",
-            "version": "2.62.0_1"
-          },
-          {
             "name": "libtasn1",
             "version": "4.21.0"
-          },
-          {
-            "name": "libthai",
-            "version": "0.1.30"
-          },
-          {
-            "name": "libudev-devd",
-            "version": "0.6.0"
           },
           {
             "name": "libudfread",
@@ -391,27 +275,11 @@
           },
           {
             "name": "libunibreak",
-            "version": "6.1,1"
+            "version": "7.0,1"
           },
           {
             "name": "libunistring",
             "version": "1.4.2"
-          },
-          {
-            "name": "libunwind",
-            "version": "20250904"
-          },
-          {
-            "name": "libv4l",
-            "version": "1.23.0_5"
-          },
-          {
-            "name": "libva",
-            "version": "2.23.0"
-          },
-          {
-            "name": "libvdpau",
-            "version": "1.5"
           },
           {
             "name": "libvorbis",
@@ -426,32 +294,16 @@
             "version": "0.164.3095"
           },
           {
-            "name": "libxcb",
-            "version": "1.17.0"
-          },
-          {
             "name": "libxml2",
-            "version": "2.15.2"
-          },
-          {
-            "name": "lzo2",
-            "version": "2.10_1"
-          },
-          {
-            "name": "mpc",
-            "version": "1.4.0"
+            "version": "2.15.3"
           },
           {
             "name": "mpdecimal",
             "version": "4.0.1"
           },
           {
-            "name": "mpfr",
-            "version": "4.2.2,1"
-          },
-          {
             "name": "navidrome",
-            "version": "0.60.3_4"
+            "version": "0.62.0_1"
           },
           {
             "name": "nettle",
@@ -462,18 +314,6 @@
             "version": "6.9.10"
           },
           {
-            "name": "openblas",
-            "version": "0.3.30,2"
-          },
-          {
-            "name": "openexr",
-            "version": "3.4.13"
-          },
-          {
-            "name": "openjph",
-            "version": "0.26.3"
-          },
-          {
             "name": "opus",
             "version": "1.6.1"
           },
@@ -482,40 +322,24 @@
             "version": "0.26.2"
           },
           {
-            "name": "pango",
-            "version": "1.56.4_1"
-          },
-          {
             "name": "pcre2",
             "version": "10.47_1"
           },
           {
-            "name": "pixman",
-            "version": "0.46.2"
-          },
-          {
             "name": "pkg",
-            "version": "2.6.2_1"
+            "version": "2.7.5"
           },
           {
             "name": "png",
-            "version": "1.6.57"
+            "version": "1.6.58"
           },
           {
-            "name": "py311-boost-libs",
-            "version": "1.89.0"
+            "name": "py312-packaging",
+            "version": "26.2"
           },
           {
-            "name": "py311-numpy",
-            "version": "1.26.4_12,1"
-          },
-          {
-            "name": "py311-packaging",
-            "version": "26.0"
-          },
-          {
-            "name": "python311",
-            "version": "3.11.15_4"
+            "name": "python312",
+            "version": "3.12.13_3"
           },
           {
             "name": "readline",
@@ -526,48 +350,12 @@
             "version": "2.14.0.1"
           },
           {
-            "name": "shaderc",
-            "version": "2026.1"
-          },
-          {
-            "name": "shared-mime-info",
-            "version": "2.4_2"
-          },
-          {
             "name": "skalibs",
             "version": "2.14.5.1"
           },
           {
             "name": "srt",
-            "version": "1.5.4"
-          },
-          {
-            "name": "suitesparse-amd",
-            "version": "3.3.4"
-          },
-          {
-            "name": "suitesparse-camd",
-            "version": "3.3.5"
-          },
-          {
-            "name": "suitesparse-ccolamd",
-            "version": "3.3.5"
-          },
-          {
-            "name": "suitesparse-cholmod",
-            "version": "5.3.4"
-          },
-          {
-            "name": "suitesparse-colamd",
-            "version": "3.3.5"
-          },
-          {
-            "name": "suitesparse-config",
-            "version": "7.12.2"
-          },
-          {
-            "name": "suitesparse-umfpack",
-            "version": "6.3.7"
+            "version": "1.5.5"
           },
           {
             "name": "svt-av1",
@@ -575,7 +363,7 @@
           },
           {
             "name": "taglib",
-            "version": "2.2"
+            "version": "2.3"
           },
           {
             "name": "tiff",
@@ -583,15 +371,7 @@
           },
           {
             "name": "vmaf",
-            "version": "3.0.0"
-          },
-          {
-            "name": "vulkan-loader",
-            "version": "1.4.336"
-          },
-          {
-            "name": "wayland",
-            "version": "1.24.0_2"
+            "version": "3.2.0"
           },
           {
             "name": "webp",
@@ -602,26 +382,14 @@
             "version": "4.1"
           },
           {
-            "name": "xorgproto",
-            "version": "2024.1"
-          },
-          {
-            "name": "xxhash",
-            "version": "0.8.3"
-          },
-          {
             "name": "zstd",
-            "version": "1.5.7_1"
+            "version": "1.5.7_2"
           }
         ],
         "go": [
           {
             "name": "github.com/Masterminds/squirrel",
             "version": "v1.5.4"
-          },
-          {
-            "name": "github.com/RaveNoX/go-jsoncommentstrip",
-            "version": "v1.0.0"
           },
           {
             "name": "github.com/andybalholm/cascadia",
@@ -645,7 +413,7 @@
           },
           {
             "name": "github.com/deluan/go-taglib",
-            "version": "v0.0.0-20260209170351-c057626454d0"
+            "version": "v0.0.0-20260511232939-ccd334abae3a"
           },
           {
             "name": "github.com/deluan/rest",
@@ -656,16 +424,8 @@
             "version": "v0.0.0-20241120162836-fdfd8fdfaa55"
           },
           {
-            "name": "github.com/deluan/tag",
-            "version": "v0.0.0-20241002021117-dfe5e6ea396d"
-          },
-          {
             "name": "github.com/dexterlb/mpvipc",
             "version": "v0.0.0-20241005113212-7cdefca0e933"
-          },
-          {
-            "name": "github.com/disintegration/imaging",
-            "version": "v1.6.2"
           },
           {
             "name": "github.com/djherbis/atime",
@@ -692,6 +452,10 @@
             "version": "v0.0.0-20240828172851-9145d8ad07e1"
           },
           {
+            "name": "github.com/ebitengine/purego",
+            "version": "v0.10.1"
+          },
+          {
             "name": "github.com/extism/go-sdk",
             "version": "v1.7.1"
           },
@@ -701,11 +465,15 @@
           },
           {
             "name": "github.com/fsnotify/fsnotify",
-            "version": "v1.9.0"
+            "version": "v1.10.1"
+          },
+          {
+            "name": "github.com/gen2brain/webp",
+            "version": "v0.5.5"
           },
           {
             "name": "github.com/go-chi/chi/v5",
-            "version": "v5.2.5"
+            "version": "v5.3.0"
           },
           {
             "name": "github.com/go-chi/cors",
@@ -717,7 +485,7 @@
           },
           {
             "name": "github.com/go-chi/jwtauth/v5",
-            "version": "v5.3.3"
+            "version": "v5.4.0"
           },
           {
             "name": "github.com/go-viper/encoding/ini",
@@ -765,7 +533,7 @@
           },
           {
             "name": "github.com/ianlancetaylor/demangle",
-            "version": "v0.0.0-20251118225945-96ee0021ea0f"
+            "version": "v0.0.0-20260505044615-1ff4bf46051f"
           },
           {
             "name": "github.com/jellydator/ttlcache/v3",
@@ -774,10 +542,6 @@
           {
             "name": "github.com/kardianos/service",
             "version": "v1.2.4"
-          },
-          {
-            "name": "github.com/kballard/go-shellquote",
-            "version": "v0.0.0-20180428030007-95032a82bc51"
           },
           {
             "name": "github.com/klauspost/cpuid/v2",
@@ -804,36 +568,28 @@
             "version": "v1.0.4"
           },
           {
+            "name": "github.com/lestrrat-go/dsig",
+            "version": "v1.3.0"
+          },
+          {
             "name": "github.com/lestrrat-go/httpcc",
             "version": "v1.0.1"
           },
           {
-            "name": "github.com/lestrrat-go/httprc",
-            "version": "v1.0.6"
+            "name": "github.com/lestrrat-go/httprc/v3",
+            "version": "v3.0.5"
           },
           {
-            "name": "github.com/lestrrat-go/iter",
-            "version": "v1.0.2"
+            "name": "github.com/lestrrat-go/jwx/v3",
+            "version": "v3.1.1"
           },
           {
-            "name": "github.com/lestrrat-go/jwx/v2",
-            "version": "v2.1.6"
-          },
-          {
-            "name": "github.com/lestrrat-go/option",
-            "version": "v1.0.1"
-          },
-          {
-            "name": "github.com/maruel/natural",
-            "version": "v1.3.0"
-          },
-          {
-            "name": "github.com/matoous/go-nanoid/v2",
-            "version": "v2.1.0"
+            "name": "github.com/lestrrat-go/option/v2",
+            "version": "v2.0.0"
           },
           {
             "name": "github.com/mattn/go-sqlite3",
-            "version": "v1.14.33"
+            "version": "v1.14.44"
           },
           {
             "name": "github.com/mfridman/interpolate",
@@ -857,15 +613,15 @@
           },
           {
             "name": "github.com/pelletier/go-toml/v2",
-            "version": "v2.2.4"
+            "version": "v2.3.1"
           },
           {
             "name": "github.com/pocketbase/dbx",
-            "version": "v1.11.0"
+            "version": "v1.12.0"
           },
           {
             "name": "github.com/pressly/goose/v3",
-            "version": "v3.26.0"
+            "version": "v3.27.1"
           },
           {
             "name": "github.com/prometheus/client_golang",
@@ -881,7 +637,7 @@
           },
           {
             "name": "github.com/prometheus/procfs",
-            "version": "v0.19.2"
+            "version": "v0.20.1"
           },
           {
             "name": "github.com/rjeczalik/notify",
@@ -893,7 +649,7 @@
           },
           {
             "name": "github.com/rogpeppe/go-internal",
-            "version": "v1.14.1"
+            "version": "v1.15.0"
           },
           {
             "name": "github.com/sabhiram/go-gitignore",
@@ -945,11 +701,15 @@
           },
           {
             "name": "github.com/tetratelabs/wazero",
-            "version": "v1.11.0"
+            "version": "v1.11.1-0.20260428013916-2bbd517b7633"
           },
           {
             "name": "github.com/unrolled/secure",
             "version": "v1.17.0"
+          },
+          {
+            "name": "github.com/valyala/fastjson",
+            "version": "v1.6.10"
           },
           {
             "name": "github.com/xrash/smetrics",
@@ -961,7 +721,7 @@
           },
           {
             "name": "go.opentelemetry.io/proto/otlp",
-            "version": "v1.9.0"
+            "version": "v1.10.0"
           },
           {
             "name": "go.uber.org/multierr",
@@ -977,35 +737,35 @@
           },
           {
             "name": "golang.org/x/crypto",
-            "version": "v0.48.0"
+            "version": "v0.52.0"
           },
           {
             "name": "golang.org/x/image",
-            "version": "v0.36.0"
-          },
-          {
-            "name": "golang.org/x/net",
-            "version": "v0.50.0"
-          },
-          {
-            "name": "golang.org/x/sync",
-            "version": "v0.19.0"
-          },
-          {
-            "name": "golang.org/x/sys",
             "version": "v0.41.0"
           },
           {
+            "name": "golang.org/x/net",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "golang.org/x/sync",
+            "version": "v0.20.0"
+          },
+          {
+            "name": "golang.org/x/sys",
+            "version": "v0.45.0"
+          },
+          {
             "name": "golang.org/x/term",
-            "version": "v0.40.0"
+            "version": "v0.43.0"
           },
           {
             "name": "golang.org/x/text",
-            "version": "v0.34.0"
+            "version": "v0.37.0"
           },
           {
             "name": "golang.org/x/time",
-            "version": "v0.14.0"
+            "version": "v0.15.0"
           },
           {
             "name": "google.golang.org/protobuf",
@@ -1013,7 +773,7 @@
           },
           {
             "name": "gopkg.in/ini.v1",
-            "version": "v1.67.1"
+            "version": "v1.67.2"
           },
           {
             "name": "gopkg.in/yaml.v3",
@@ -1021,16 +781,11 @@
           },
           {
             "name": "stdlib",
-            "version": "v1.25.11"
+            "version": "v1.26.5"
           }
         ],
         "java": [],
-        "node": [
-          {
-            "name": "MathJax-grunt-cleaner",
-            "version": "0.1.0"
-          }
-        ],
+        "node": [],
         "php": [],
         "python": [
           {
@@ -1038,12 +793,8 @@
             "version": "21.12"
           },
           {
-            "name": "numpy",
-            "version": "1.26.4"
-          },
-          {
             "name": "packaging",
-            "version": "26.0"
+            "version": "26.2"
           }
         ],
         "ruby": [],
@@ -1052,15 +803,15 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 151,
-        "go": 102,
+        "freebsd": 94,
+        "go": 99,
         "java": 0,
-        "node": 1,
+        "node": 0,
         "php": 0,
-        "python": 3,
+        "python": 2,
         "ruby": 0,
         "rust": 0,
-        "total": 257
+        "total": 195
       }
     }
   }
