@@ -2,7 +2,8 @@ ARG BASE_VERSION=15
 FROM ghcr.io/daemonless/base:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
-ARG PACKAGES="navidrome ffmpeg-nox11"
+ARG PKG_NAME="navidrome"
+ARG PACKAGES="${PKG_NAME} ffmpeg-nox11"
 ARG APP_VERSION="latest"
 
 LABEL org.opencontainers.image.title="Navidrome" \
@@ -15,6 +16,7 @@ LABEL org.opencontainers.image.title="Navidrome" \
       io.daemonless.category="Media Servers" \
       io.daemonless.port="4533" \
       io.daemonless.arch="${FREEBSD_ARCH}" \
+      io.daemonless.pkg-name="${PKG_NAME}" \
       io.daemonless.packages="${PACKAGES}"
       
 
@@ -26,7 +28,7 @@ RUN pkg update && \
 
 # Download and install navidrome
 RUN mkdir -p /app && \
-    NAVIDROME_VERSION=$(pkg query -e %n=navidrome %v) && \
+    NAVIDROME_VERSION=$(pkg query -e %n=${PKG_NAME} %v) && \
     echo "${NAVIDROME_VERSION}" > /app/version
 
 # Copy root filesystem
