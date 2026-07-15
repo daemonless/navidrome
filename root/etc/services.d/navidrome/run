@@ -3,7 +3,8 @@
 
 export ND_FFMPEGPATH=/usr/local/bin/ffmpeg
 export ND_MUSICFOLDER=/music
+export HOME=/config
 
-cd /app
+cd ${HOME}
 exec /usr/local/bin/s6-setuidgid bsd \
     /usr/local/bin/navidrome --configfile /config/config.toml --datafolder /config/data
