@@ -20,7 +20,10 @@ Modern Music Server and Streamer compatible with Subsonic/Airsonic.
 ## Version Tags
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
-| `latest` | **Upstream Binary**. Built from official release. | Most users. Matches Linux Docker behavior. |
+| `15` | **Upstream Binary**. Built from official release. | Alternative build. |
+| `15-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
+| `15.1` / `latest` / `pkg` | **Upstream Binary**. Built from official release. | Alternative build. |
+| `15.1-latest` / `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
 
 ## Prerequisites
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
@@ -99,7 +102,7 @@ volumes:
 ```
 # Makejail
 
-ARG tag=latest
+ARG tag=15
 
 OPTION overwrite=force
 OPTION from=ghcr.io/daemonless/navidrome:${tag}
