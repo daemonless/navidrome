@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-15T01:44:10Z",
+  "generated": "2026-07-21T21:58:47Z",
   "image": "navidrome",
   "tags": {
     "latest": {
       "app_version": "0.62.0_1",
       "arch": "amd64",
-      "generated": "2026-07-15T01:42:54Z",
+      "generated": "2026-07-21T21:57:31Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -67,6 +67,10 @@
           },
           {
             "name": "FreeBSD-libucl",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-locales",
             "version": "15.0"
           },
           {
@@ -803,7 +807,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 94,
+        "freebsd": 95,
         "go": 99,
         "java": 0,
         "node": 0,
@@ -811,7 +815,7 @@
         "python": 2,
         "ruby": 0,
         "rust": 0,
-        "total": 195
+        "total": 196
       }
     }
   }
