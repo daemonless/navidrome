@@ -6,20 +6,14 @@
 build:
   pkg_name: navidrome
   variants:
-    - tag: "15"
-      args:
-        BASE_VERSION: "15"
-    - tag: "15-latest"
-      args:
-        BASE_VERSION: "15-latest"
-    - tag: "15.1"
+    - tag: pkg
       args:
         BASE_VERSION: "15.1"
-      aliases: ["latest", "pkg"]
-    - tag: "15.1-latest"
+      aliases: ["latest"]
+      default: true
+    - tag: pkg-latest
       args:
         BASE_VERSION: "15.1-latest"
-      aliases: ["pkg-latest"]
 
 cit:
   mode: health
