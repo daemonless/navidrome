@@ -5,6 +5,9 @@
 
 build:
   pkg_name: navidrome
+  architectures:
+    - amd64
+    - aarch64
   variants:
     - tag: pkg
       args:
