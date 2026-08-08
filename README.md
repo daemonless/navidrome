@@ -76,7 +76,7 @@ services:
     name: navidrome
     options:
       - container: 'boot args:--pull'
-      - expose: '4533:4533 proto:tcp' \
+      - expose: '4533:4533 proto:tcp'
     oci:
       user: root
       environment:
@@ -197,7 +197,7 @@ If no configuration file exists when the container starts, it will generate an i
 config file at `/config/config.toml`.
 
 
-**Architectures:** amd64
+**Architectures:** amd64, aarch64
 **User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
 **Base:** FreeBSD 15
 
