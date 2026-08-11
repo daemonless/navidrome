@@ -20,8 +20,8 @@ Modern Music Server and Streamer compatible with Subsonic/Airsonic.
 ## Version Tags
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
-| `latest` / `pkg` | **Upstream Binary**. Built from official release. | Most users. Matches Linux Docker behavior. |
-| `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
+| `latest` / `pkg` | **Upstream Binary**. Built from official release. | Most users — recommended. |
+| `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
 
 ## Prerequisites
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.

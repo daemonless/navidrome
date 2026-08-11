@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-08T16:40:31Z",
+  "generated": "2026-08-11T12:18:26Z",
   "image": "navidrome",
   "tags": {
-    "pkg": {
+    "pkg-amd64": {
       "app_version": "0.62.0_1",
       "arch": "amd64",
-      "generated": "2026-08-08T16:38:15Z",
+      "generated": "2026-08-11T12:17:27Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1236,10 +1236,10 @@
         "total": 198
       }
     },
-    "pkg-latest": {
+    "pkg-latest-amd64": {
       "app_version": "0.63.2",
       "arch": "amd64",
-      "generated": "2026-08-08T16:38:50Z",
+      "generated": "2026-08-11T12:17:15Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1566,7 +1566,7 @@
               "LGPL20"
             ],
             "name": "glib",
-            "version": "2.86.4,2"
+            "version": "2.88.3,2"
           },
           {
             "licenses": [
@@ -1828,7 +1828,7 @@
               "BSD3CLAUSE"
             ],
             "name": "p11-kit",
-            "version": "0.26.4"
+            "version": "0.26.5"
           },
           {
             "licenses": [
