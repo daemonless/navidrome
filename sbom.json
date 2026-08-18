@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-17T07:59:21Z",
+  "generated": "2026-08-18T07:50:14Z",
   "image": "navidrome",
   "tags": {
     "pkg-amd64": {
       "app_version": "0.62.0_2",
       "arch": "amd64",
-      "generated": "2026-08-17T07:56:19Z",
+      "generated": "2026-08-18T07:48:00Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1237,9 +1237,9 @@
       }
     },
     "pkg-latest-amd64": {
-      "app_version": "0.63.2",
+      "app_version": "0.63.2_1",
       "arch": "amd64",
-      "generated": "2026-08-17T07:58:33Z",
+      "generated": "2026-08-18T07:47:29Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1771,7 +1771,7 @@
               "GPLv2"
             ],
             "name": "libx264",
-            "version": "0.165.3223"
+            "version": "0.165.3223_1"
           },
           {
             "licenses": [
@@ -1799,7 +1799,7 @@
               "GPLv3"
             ],
             "name": "navidrome",
-            "version": "0.63.2"
+            "version": "0.63.2_1"
           },
           {
             "licenses": [
@@ -1864,7 +1864,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_4"
+            "version": "3.12.14"
           },
           {
             "licenses": [
@@ -2442,7 +2442,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.5"
+            "version": "v1.26.6"
           }
         ],
         "java": [],
