@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-19T15:35:22Z",
+  "generated": "2026-08-21T20:33:06Z",
   "image": "navidrome",
   "tags": {
     "pkg-amd64": {
       "app_version": "0.62.0_2",
       "arch": "amd64",
-      "generated": "2026-08-19T15:34:38Z",
+      "generated": "2026-08-21T20:31:54Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -259,7 +259,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.126.1"
           },
           {
             "licenses": [
@@ -623,7 +623,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_4"
+            "version": "3.12.14"
           },
           {
             "licenses": [
@@ -1237,9 +1237,9 @@
       }
     },
     "pkg-latest-amd64": {
-      "app_version": "0.63.2_1",
+      "app_version": "0.63.2_2",
       "arch": "amd64",
-      "generated": "2026-08-19T15:16:06Z",
+      "generated": "2026-08-21T20:30:40Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1493,7 +1493,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.126.1"
           },
           {
             "licenses": [
@@ -1690,7 +1690,7 @@
               "MIT"
             ],
             "name": "libffi",
-            "version": "3.7.1"
+            "version": "3.8.0"
           },
           {
             "licenses": [
@@ -1799,7 +1799,7 @@
               "GPLv3"
             ],
             "name": "navidrome",
-            "version": "0.63.2_1"
+            "version": "0.63.2_2"
           },
           {
             "licenses": [
@@ -2442,7 +2442,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.6"
+            "version": "v1.26.7"
           }
         ],
         "java": [],
