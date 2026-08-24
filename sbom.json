@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-23T07:38:41Z",
+  "generated": "2026-08-24T14:26:01Z",
   "image": "navidrome",
   "tags": {
     "pkg-amd64": {
-      "app_version": "0.62.0_2",
+      "app_version": "0.62.0_3",
       "arch": "amd64",
-      "generated": "2026-08-23T07:37:33Z",
+      "generated": "2026-08-24T14:24:46Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -558,7 +558,7 @@
               "GPLv3"
             ],
             "name": "navidrome",
-            "version": "0.62.0_2"
+            "version": "0.62.0_3"
           },
           {
             "licenses": [
@@ -1201,7 +1201,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.6"
+            "version": "v1.26.7"
           }
         ],
         "java": [],
@@ -1239,7 +1239,7 @@
     "pkg-latest-amd64": {
       "app_version": "0.63.2_2",
       "arch": "amd64",
-      "generated": "2026-08-23T07:37:54Z",
+      "generated": "2026-08-24T14:25:07Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1514,7 +1514,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.2"
+            "version": "2.8.3"
           },
           {
             "licenses": [
