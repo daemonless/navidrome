@@ -46,8 +46,11 @@ services:
       - "/path/to/music:/music"
     ports:
       - "4533:4533"
-    restart: unless-stopped
+    # always (not unless-stopped) so FreeBSD's podman rc.d auto-starts it at boot
+    restart: always
 ```
+
+Save as `compose.yaml`, then run `podman-compose up -d`.
 
 ### AppJail Director
 **.env**:
@@ -105,6 +108,9 @@ ARG tag=latest
 OPTION overwrite=force
 OPTION from=ghcr.io/daemonless/navidrome:${tag}
 ```
+
+Save the files above, then run `appjail-director up`.
+
 **Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
 
 ### Podman CLI
@@ -121,6 +127,8 @@ podman run -d --name navidrome \
   -v /path/to/music:/music \
   ghcr.io/daemonless/navidrome:latest
 ```
+
+Save as `run.sh`, then run `sh run.sh`.
 
 ### AppJail
 
@@ -140,7 +148,42 @@ appjail oci run -Pd \
   -o fstab="/path/to/music /music <pseudofs>" \
   ghcr.io/daemonless/navidrome:latest navidrome
 ```
+
+Save as `run.sh`, then run `sh run.sh`.
+
 **Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
+
+### Bastille
+
+> [!WARNING]
+> Bastille's OCI support is **experimental**. It requires `buildah`, shares the host network stack (`inherit`), and persists image-declared volumes under `--data-path`.
+
+```yaml
+services:
+  navidrome:
+    image: "ghcr.io/daemonless/navidrome:latest"
+    container_name: navidrome
+    network_mode: host  # jail shares host networking
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+      - ND_SCANNER_SCHEDULE="@every 1h"
+      - ND_LOGLEVEL=info
+```
+
+Save as `podman-compose.yml`, then run `bastille up`. Or via CLI:
+
+```bash
+bastille create -O \
+  --env PUID=1000 \
+  --env PGID=1000 \
+  --env TZ=UTC \
+  --env ND_SCANNER_SCHEDULE="@every 1h" \
+  --env ND_LOGLEVEL=info \
+  --data-path /path/to/containers/navidrome \
+  navidrome ghcr.io/daemonless/navidrome:latest inherit
+```
 
 ### Ansible
 
@@ -163,6 +206,8 @@ appjail oci run -Pd \
       - "/path/to/containers/navidrome:/config"
       - "/path/to/music:/music"
 ```
+
+Save as `navidrome-deploy.yaml`, then run `ansible-playbook navidrome-deploy.yaml`.
 
 Access at: `http://localhost:4533`
 
