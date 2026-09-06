@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-05T13:37:38Z",
+  "generated": "2026-09-06T21:25:40Z",
   "image": "navidrome",
   "tags": {
     "pkg-amd64": {
       "app_version": "0.62.0_3",
       "arch": "amd64",
-      "generated": "2026-09-05T13:36:51Z",
+      "generated": "2026-09-06T21:22:05Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -266,7 +266,7 @@
               "BSD2CLAUSE"
             ],
             "name": "dav1d",
-            "version": "1.5.3_1"
+            "version": "1.5.4"
           },
           {
             "licenses": [
@@ -1237,9 +1237,9 @@
       }
     },
     "pkg-latest-amd64": {
-      "app_version": "0.63.2_2",
+      "app_version": "0.63.2_3",
       "arch": "amd64",
-      "generated": "2026-09-05T13:36:36Z",
+      "generated": "2026-09-06T21:18:38Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1500,7 +1500,7 @@
               "BSD2CLAUSE"
             ],
             "name": "dav1d",
-            "version": "1.5.3_1"
+            "version": "1.5.4"
           },
           {
             "licenses": [
@@ -1669,7 +1669,7 @@
               "MIT"
             ],
             "name": "libdeflate",
-            "version": "1.25"
+            "version": "1.26"
           },
           {
             "licenses": [
@@ -1799,7 +1799,7 @@
               "GPLv3"
             ],
             "name": "navidrome",
-            "version": "0.63.2_2"
+            "version": "0.63.2_3"
           },
           {
             "licenses": [
@@ -2442,7 +2442,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.7"
+            "version": "v1.26.8"
           }
         ],
         "java": [],
