@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-06T21:25:40Z",
+  "generated": "2026-09-11T16:30:41Z",
   "image": "navidrome",
   "tags": {
     "pkg-amd64": {
       "app_version": "0.62.0_3",
       "arch": "amd64",
-      "generated": "2026-09-06T21:22:05Z",
+      "generated": "2026-09-11T16:29:55Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1239,7 +1239,7 @@
     "pkg-latest-amd64": {
       "app_version": "0.63.2_3",
       "arch": "amd64",
-      "generated": "2026-09-06T21:18:38Z",
+      "generated": "2026-09-11T16:29:29Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1514,7 +1514,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.3"
+            "version": "2.8.4"
           },
           {
             "licenses": [
@@ -1522,7 +1522,7 @@
               "LGPL3+"
             ],
             "name": "ffmpeg-nox11",
-            "version": "8.1.2_3,1"
+            "version": "9.0.1,1"
           },
           {
             "licenses": [
@@ -1778,7 +1778,7 @@
               "MIT"
             ],
             "name": "libxml2",
-            "version": "2.15.3"
+            "version": "2.15.4"
           },
           {
             "licenses": [
