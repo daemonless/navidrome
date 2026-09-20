@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-11T16:30:41Z",
+  "generated": "2026-09-20T23:51:08Z",
   "image": "navidrome",
   "tags": {
     "pkg-amd64": {
       "app_version": "0.62.0_3",
       "arch": "amd64",
-      "generated": "2026-09-11T16:29:55Z",
+      "generated": "2026-09-20T23:43:21Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -49,6 +49,13 @@
               "CDDL-1.0"
             ],
             "name": "FreeBSD-ctf-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD-3-Clause"
+            ],
+            "name": "FreeBSD-dhclient",
             "version": "15.1"
           },
           {
@@ -174,6 +181,13 @@
             "licenses": [
               "BSD2CLAUSE"
             ],
+            "name": "FreeBSD-resolvconf",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-runtime",
             "version": "15.1p3"
           },
@@ -259,7 +273,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.129"
           },
           {
             "licenses": [
@@ -651,7 +665,7 @@
               "LGPL21"
             ],
             "name": "srt",
-            "version": "1.5.5"
+            "version": "1.5.6"
           },
           {
             "licenses": [
@@ -1225,7 +1239,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 97,
+        "freebsd": 99,
         "go": 99,
         "java": 0,
         "node": 0,
@@ -1233,13 +1247,13 @@
         "python": 2,
         "ruby": 0,
         "rust": 0,
-        "total": 198
+        "total": 200
       }
     },
     "pkg-latest-amd64": {
       "app_version": "0.63.2_3",
       "arch": "amd64",
-      "generated": "2026-09-11T16:29:29Z",
+      "generated": "2026-09-20T23:43:27Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1283,6 +1297,13 @@
               "CDDL-1.0"
             ],
             "name": "FreeBSD-ctf-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD-3-Clause"
+            ],
+            "name": "FreeBSD-dhclient",
             "version": "15.1"
           },
           {
@@ -1408,6 +1429,13 @@
             "licenses": [
               "BSD2CLAUSE"
             ],
+            "name": "FreeBSD-resolvconf",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-runtime",
             "version": "15.1p3"
           },
@@ -1479,7 +1507,7 @@
               "GPLv3+"
             ],
             "name": "bash",
-            "version": "5.3.15"
+            "version": "5.3.20"
           },
           {
             "licenses": [
@@ -1493,7 +1521,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.129"
           },
           {
             "licenses": [
@@ -1662,7 +1690,7 @@
               "LGPL21"
             ],
             "name": "libbluray",
-            "version": "1.5.0,1"
+            "version": "1.5.1,1"
           },
           {
             "licenses": [
@@ -1892,7 +1920,7 @@
               "LGPL21"
             ],
             "name": "srt",
-            "version": "1.5.6"
+            "version": "1.5.7_1"
           },
           {
             "licenses": [
@@ -1923,7 +1951,7 @@
               "BSD2CLAUSE+PATENT"
             ],
             "name": "vmaf",
-            "version": "3.2.0"
+            "version": "3.2.1"
           },
           {
             "licenses": [
@@ -2466,7 +2494,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 98,
+        "freebsd": 100,
         "go": 99,
         "java": 0,
         "node": 0,
@@ -2474,7 +2502,7 @@
         "python": 2,
         "ruby": 0,
         "rust": 0,
-        "total": 199
+        "total": 201
       }
     }
   }
