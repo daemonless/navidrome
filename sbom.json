@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-20T23:51:08Z",
+  "generated": "2026-09-24T17:55:08Z",
   "image": "navidrome",
   "tags": {
     "pkg-amd64": {
       "app_version": "0.62.0_3",
       "arch": "amd64",
-      "generated": "2026-09-20T23:43:21Z",
+      "generated": "2026-09-24T17:54:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1251,9 +1251,9 @@
       }
     },
     "pkg-latest-amd64": {
-      "app_version": "0.63.2_3",
+      "app_version": "0.64.1",
       "arch": "amd64",
-      "generated": "2026-09-20T23:43:27Z",
+      "generated": "2026-09-24T17:54:00Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1500,7 +1500,7 @@
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.15.0"
+            "version": "3.15.1"
           },
           {
             "licenses": [
@@ -1827,7 +1827,7 @@
               "GPLv3"
             ],
             "name": "navidrome",
-            "version": "0.63.2_3"
+            "version": "0.64.1"
           },
           {
             "licenses": [
@@ -1856,7 +1856,7 @@
               "BSD3CLAUSE"
             ],
             "name": "p11-kit",
-            "version": "0.26.5"
+            "version": "0.26.5_1"
           },
           {
             "licenses": [
@@ -1899,7 +1899,7 @@
               "GPLv3"
             ],
             "name": "readline",
-            "version": "8.3.3"
+            "version": "8.3.6"
           },
           {
             "licenses": [
@@ -1937,7 +1937,7 @@
               "MPL11"
             ],
             "name": "taglib",
-            "version": "2.3.1"
+            "version": "2.3.2"
           },
           {
             "licenses": [
@@ -1985,7 +1985,7 @@
           {
             "name": "github.com/andybalholm/cascadia",
             "purl": "",
-            "version": "v1.3.4"
+            "version": "v1.3.5"
           },
           {
             "name": "github.com/aymerick/douceur",
@@ -2010,12 +2010,12 @@
           {
             "name": "github.com/deluan/go-taglib",
             "purl": "",
-            "version": "v0.0.0-20260619222856-1975cb12f59d"
+            "version": "v0.0.0-20260913142955-d55e0c9353cb"
           },
           {
             "name": "github.com/deluan/rest",
             "purl": "",
-            "version": "v0.0.0-20211102003136-6260bc399cbf"
+            "version": "v0.0.0-20260913134927-47b21f30cc12"
           },
           {
             "name": "github.com/deluan/sanitize",
@@ -2025,7 +2025,7 @@
           {
             "name": "github.com/dexterlb/mpvipc",
             "purl": "",
-            "version": "v0.0.0-20241005113212-7cdefca0e933"
+            "version": "v0.0.0-20260722094525-0cf47d745b36"
           },
           {
             "name": "github.com/djherbis/atime",
@@ -2035,12 +2035,12 @@
           {
             "name": "github.com/djherbis/fscache",
             "purl": "",
-            "version": "v0.10.2-0.20231127215153-442a07e326c4"
+            "version": "v0.10.2-0.20260829235704-6d85d5878c22"
           },
           {
             "name": "github.com/djherbis/stream",
             "purl": "",
-            "version": "v1.4.0"
+            "version": "v1.5.1"
           },
           {
             "name": "github.com/djherbis/times",
@@ -2060,7 +2060,7 @@
           {
             "name": "github.com/ebitengine/purego",
             "purl": "",
-            "version": "v0.10.1"
+            "version": "v0.10.2"
           },
           {
             "name": "github.com/extism/go-sdk",
@@ -2085,7 +2085,7 @@
           {
             "name": "github.com/go-chi/chi/v5",
             "purl": "",
-            "version": "v5.3.1"
+            "version": "v5.3.2"
           },
           {
             "name": "github.com/go-chi/cors",
@@ -2120,7 +2120,7 @@
           {
             "name": "github.com/gohugoio/hashstructure",
             "purl": "",
-            "version": "v0.6.0"
+            "version": "v1.1.0"
           },
           {
             "name": "github.com/google/go-pipeline",
@@ -2160,7 +2160,7 @@
           {
             "name": "github.com/ianlancetaylor/demangle",
             "purl": "",
-            "version": "v0.0.0-20260505044615-1ff4bf46051f"
+            "version": "v0.0.0-20260724033716-83e58baca724"
           },
           {
             "name": "github.com/jellydator/ttlcache/v3",
@@ -2205,7 +2205,7 @@
           {
             "name": "github.com/lestrrat-go/dsig",
             "purl": "",
-            "version": "v1.3.0"
+            "version": "v1.4.0"
           },
           {
             "name": "github.com/lestrrat-go/httpcc",
@@ -2220,7 +2220,7 @@
           {
             "name": "github.com/lestrrat-go/jwx/v3",
             "purl": "",
-            "version": "v3.1.1"
+            "version": "v3.3.0"
           },
           {
             "name": "github.com/lestrrat-go/option/v2",
@@ -2230,7 +2230,7 @@
           {
             "name": "github.com/mattn/go-sqlite3",
             "purl": "",
-            "version": "v1.14.47"
+            "version": "v1.14.52"
           },
           {
             "name": "github.com/mfridman/interpolate",
@@ -2270,12 +2270,12 @@
           {
             "name": "github.com/pressly/goose/v3",
             "purl": "",
-            "version": "v3.27.2"
+            "version": "v3.28.0"
           },
           {
             "name": "github.com/prometheus/client_golang",
             "purl": "",
-            "version": "v1.23.2"
+            "version": "v1.24.1"
           },
           {
             "name": "github.com/prometheus/client_model",
@@ -2285,12 +2285,12 @@
           {
             "name": "github.com/prometheus/common",
             "purl": "",
-            "version": "v0.67.5"
+            "version": "v0.70.1"
           },
           {
             "name": "github.com/prometheus/procfs",
             "purl": "",
-            "version": "v0.20.1"
+            "version": "v0.22.0"
           },
           {
             "name": "github.com/rjeczalik/notify",
@@ -2305,7 +2305,7 @@
           {
             "name": "github.com/rogpeppe/go-internal",
             "purl": "",
-            "version": "v1.15.0"
+            "version": "v1.16.0"
           },
           {
             "name": "github.com/sabhiram/go-gitignore",
@@ -2320,17 +2320,17 @@
           {
             "name": "github.com/santhosh-tekuri/jsonschema/v6",
             "purl": "",
-            "version": "v6.0.2"
+            "version": "v6.0.3"
           },
           {
             "name": "github.com/sethvargo/go-retry",
             "purl": "",
-            "version": "v0.3.0"
+            "version": "v0.4.0"
           },
           {
             "name": "github.com/sirupsen/logrus",
             "purl": "",
-            "version": "v1.9.4"
+            "version": "v1.10.2"
           },
           {
             "name": "github.com/spf13/afero",
@@ -2395,7 +2395,7 @@
           {
             "name": "go.opentelemetry.io/proto/otlp",
             "purl": "",
-            "version": "v1.10.0"
+            "version": "v1.11.0"
           },
           {
             "name": "go.uber.org/multierr",
@@ -2403,59 +2403,54 @@
             "version": "v1.11.0"
           },
           {
-            "name": "go.yaml.in/yaml/v2",
-            "purl": "",
-            "version": "v2.4.3"
-          },
-          {
             "name": "go.yaml.in/yaml/v3",
             "purl": "",
-            "version": "v3.0.4"
+            "version": "v3.0.5"
           },
           {
             "name": "golang.org/x/crypto",
             "purl": "",
-            "version": "v0.53.0"
+            "version": "v0.57.0"
           },
           {
             "name": "golang.org/x/image",
             "purl": "",
-            "version": "v0.43.0"
+            "version": "v0.46.0"
           },
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.56.0"
+            "version": "v0.59.0"
           },
           {
             "name": "golang.org/x/sync",
             "purl": "",
-            "version": "v0.21.0"
+            "version": "v0.23.0"
           },
           {
             "name": "golang.org/x/sys",
             "purl": "",
-            "version": "v0.46.0"
+            "version": "v0.48.0"
           },
           {
             "name": "golang.org/x/term",
             "purl": "",
-            "version": "v0.44.0"
+            "version": "v0.46.0"
           },
           {
             "name": "golang.org/x/text",
             "purl": "",
-            "version": "v0.39.0"
+            "version": "v0.42.0"
           },
           {
             "name": "golang.org/x/time",
             "purl": "",
-            "version": "v0.15.0"
+            "version": "v0.16.0"
           },
           {
             "name": "google.golang.org/protobuf",
             "purl": "",
-            "version": "v1.36.11"
+            "version": "v1.36.12"
           },
           {
             "name": "gopkg.in/ini.v1",
@@ -2470,7 +2465,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.8"
+            "version": "v1.27.1"
           }
         ],
         "java": [],
@@ -2495,14 +2490,14 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 100,
-        "go": 99,
+        "go": 98,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 2,
         "ruby": 0,
         "rust": 0,
-        "total": 201
+        "total": 200
       }
     }
   }
