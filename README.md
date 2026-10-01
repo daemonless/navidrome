@@ -43,7 +43,7 @@ services:
       - ND_SCANNER_SCHEDULE="@every 1h"  # Schedule for automatic scans.
       - ND_LOGLEVEL=info  # Log level. Useful for troubleshooting.
     volumes:
-      - "/path/to/containers/navidrome:/config"
+      - "/containers/navidrome:/config"
       - "/path/to/music:/music"
     ports:
       - "4533:4533"
@@ -94,7 +94,7 @@ services:
       - music: /music
 volumes:
   navidrome:
-    device: '/path/to/containers/navidrome'
+    device: '/containers/navidrome'
   music:
     device: 'music'
 ```
@@ -129,7 +129,7 @@ podman run -d --name navidrome \
   -e TZ=UTC \
   -e ND_SCANNER_SCHEDULE="@every 1h" \
   -e ND_LOGLEVEL=info \
-  -v /path/to/containers/navidrome:/config \
+  -v /containers/navidrome:/config \
   -v /path/to/music:/music \
   ghcr.io/daemonless/navidrome:latest
 ```
@@ -151,7 +151,7 @@ appjail oci run -Pd \
   -e TZ=UTC \
   -e ND_SCANNER_SCHEDULE="@every 1h" \
   -e ND_LOGLEVEL=info \
-  -o fstab="/path/to/containers/navidrome /config <pseudofs>" \
+  -o fstab="/containers/navidrome /config <pseudofs>" \
   -o fstab="/path/to/music /music <pseudofs>" \
   ghcr.io/daemonless/navidrome:latest navidrome
 ```
@@ -183,7 +183,7 @@ services:
       - ND_SCANNER_SCHEDULE="@every 1h"
       - ND_LOGLEVEL=info
     volumes:
-      - "/path/to/containers/navidrome:/config"
+      - "/containers/navidrome:/config"
       - "/path/to/music:/music"
 ```
 
@@ -196,7 +196,7 @@ bastille create -O \
   --env TZ=UTC \
   --env ND_SCANNER_SCHEDULE="@every 1h" \
   --env ND_LOGLEVEL=info \
-  --volume /path/to/containers/navidrome /config \
+  --volume /containers/navidrome /config \
   --volume /path/to/music /music \
   navidrome ghcr.io/daemonless/navidrome:latest inherit
 ```
@@ -219,7 +219,7 @@ bastille create -O \
     ports:
       - "4533:4533"
     volumes:
-      - "/path/to/containers/navidrome:/config"
+      - "/containers/navidrome:/config"
       - "/path/to/music:/music"
 ```
 
