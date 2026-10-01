@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-28T18:57:06Z",
+  "generated": "2026-10-01T22:31:26Z",
   "image": "navidrome",
   "tags": {
     "pkg-aarch64": {
       "app_version": "0.62.0_3",
       "arch": "aarch64",
-      "generated": "2026-09-28T18:55:39Z",
+      "generated": "2026-10-01T22:30:05Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1248,7 +1248,7 @@
     "pkg-latest-aarch64": {
       "app_version": "0.64.1",
       "arch": "aarch64",
-      "generated": "2026-09-28T18:55:44Z",
+      "generated": "2026-10-01T22:30:10Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1887,7 +1887,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14"
+            "version": "3.12.14_1"
           },
           {
             "licenses": [
