@@ -119,51 +119,6 @@ Save the files above, then run `appjail-director up`.
 >
 > To avoid exposing ports, just remove the `expose` option in your `appjail-director.yml` or from your command-line arguments.
 
-### Podman CLI
-
-```bash
-podman run -d --name navidrome \
-  -p 4533:4533 \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=UTC \
-  -e ND_SCANNER_SCHEDULE="@every 1h" \
-  -e ND_LOGLEVEL=info \
-  -v /containers/navidrome:/config \
-  -v /path/to/music:/music \
-  ghcr.io/daemonless/navidrome:latest
-```
-
-Save as `run.sh`, then run `sh run.sh`.
-
-### AppJail
-
-
-```bash
-appjail oci run -Pd \
-  -o overwrite=force \
-  -o container="args:--pull" \
-  -o virtualnet=":<random> default" \
-  -o nat \
-  -o expose="4533:4533 proto:tcp" \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=UTC \
-  -e ND_SCANNER_SCHEDULE="@every 1h" \
-  -e ND_LOGLEVEL=info \
-  -o fstab="/containers/navidrome /config <pseudofs>" \
-  -o fstab="/path/to/music /music <pseudofs>" \
-  ghcr.io/daemonless/navidrome:latest navidrome
-```
-
-Save the files above, then run `sh run.sh`.
-
-
-> [!WARNING]
-> Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the jail's IPv4 address or hostname assigned by the virtual network.
->
-> To avoid exposing ports, just remove the `expose` option in your `appjail-director.yml` or from your command-line arguments.
-
 ### Bastille
 
 > [!WARNING]
@@ -187,43 +142,7 @@ services:
       - "/path/to/music:/music"
 ```
 
-Save as `bastille-compose.yml`, then run `bastille up`. Or via CLI:
-
-```bash
-bastille create -O \
-  --env PUID=1000 \
-  --env PGID=1000 \
-  --env TZ=UTC \
-  --env ND_SCANNER_SCHEDULE="@every 1h" \
-  --env ND_LOGLEVEL=info \
-  --volume /containers/navidrome /config \
-  --volume /path/to/music /music \
-  navidrome ghcr.io/daemonless/navidrome:latest inherit
-```
-
-### Ansible
-
-```yaml
-- name: Deploy navidrome
-  containers.podman.podman_container:
-    name: navidrome
-    image: "ghcr.io/daemonless/navidrome:latest"
-    state: started
-    restart_policy: always
-    env:
-      PUID: "1000"
-      PGID: "1000"
-      TZ: "UTC"
-      ND_SCANNER_SCHEDULE: ""@every 1h""
-      ND_LOGLEVEL: "info"
-    ports:
-      - "4533:4533"
-    volumes:
-      - "/containers/navidrome:/config"
-      - "/path/to/music:/music"
-```
-
-Save as `navidrome-deploy.yaml`, then run `ansible-playbook navidrome-deploy.yaml`.
+Save as `bastille-compose.yml`, then run `bastille up`.
 
 Access at: `http://localhost:4533`
 
