@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-11T07:38:46Z",
+  "generated": "2026-10-11T22:53:15Z",
   "image": "navidrome",
   "tags": {
     "pkg-amd64": {
-      "app_version": "0.64.1",
+      "app_version": "0.64.2",
       "arch": "amd64",
-      "generated": "2026-10-11T07:37:08Z",
+      "generated": "2026-10-11T22:48:21Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -579,7 +579,7 @@
               "GPLv3"
             ],
             "name": "navidrome",
-            "version": "0.64.1"
+            "version": "0.64.2"
           },
           {
             "licenses": [
@@ -1217,7 +1217,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.27.1"
+            "version": "v1.27.2"
           }
         ],
         "java": [],
@@ -1253,9 +1253,9 @@
       }
     },
     "pkg-latest-amd64": {
-      "app_version": "0.64.1",
+      "app_version": "0.64.2",
       "arch": "amd64",
-      "generated": "2026-10-11T07:37:58Z",
+      "generated": "2026-10-11T22:48:45Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1523,7 +1523,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
@@ -1829,7 +1829,7 @@
               "GPLv3"
             ],
             "name": "navidrome",
-            "version": "0.64.1"
+            "version": "0.64.2"
           },
           {
             "licenses": [
@@ -2467,7 +2467,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.27.1"
+            "version": "v1.27.2"
           }
         ],
         "java": [],
