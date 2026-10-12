@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-11T08:08:30Z",
+  "generated": "2026-10-12T00:24:44Z",
   "image": "navidrome",
   "tags": {
     "pkg-aarch64": {
       "app_version": "0.64.1",
       "arch": "aarch64",
-      "generated": "2026-10-11T08:07:06Z",
+      "generated": "2026-10-12T00:23:24Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1250,7 +1250,7 @@
     "pkg-latest-aarch64": {
       "app_version": "0.64.1",
       "arch": "aarch64",
-      "generated": "2026-10-11T08:07:11Z",
+      "generated": "2026-10-12T00:23:29Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
