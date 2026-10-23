@@ -1,10 +1,10 @@
 #!/bin/sh
-# Navidrome s6 service
+# Start navidrome; /init has already dropped to the run user.
 
 export ND_FFMPEGPATH=/usr/local/bin/ffmpeg
 export ND_MUSICFOLDER=/music
 export HOME=/config
 
 cd ${HOME}
-exec /usr/local/bin/s6-setuidgid bsd \
+exec \
     /usr/local/bin/navidrome --configfile /config/config.toml --datafolder /config/data

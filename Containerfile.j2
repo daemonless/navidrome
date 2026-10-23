@@ -1,5 +1,5 @@
 ARG BASE_VERSION=15
-FROM ghcr.io/daemonless/base:${BASE_VERSION}
+FROM ghcr.io/daemonless/base-exec:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 ARG PKG_NAME="navidrome"
@@ -33,9 +33,12 @@ RUN mkdir -p /app && \
 
 # Copy root filesystem
 COPY root/ /
+RUN chmod +x /daemonless/libexec/navidrome /daemonless/init.d/*
+
+CMD ["/daemonless/libexec/navidrome"]
 
 # Set permissions
-RUN chmod +x /etc/services.d/navidrome/run /healthz
+RUN chmod +x /healthz
 
 # Expose
 EXPOSE 4533
