@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-23T22:47:08Z",
+  "generated": "2026-11-03T09:47:10Z",
   "image": "navidrome",
   "tags": {
     "pkg-aarch64": {
-      "app_version": "0.64.2",
+      "app_version": "0.64.2_1",
       "arch": "aarch64",
-      "generated": "2026-10-23T22:45:42Z",
+      "generated": "2026-11-03T09:45:19Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -189,7 +189,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p5"
+            "version": "15.1p6"
           },
           {
             "licenses": [
@@ -252,7 +252,7 @@
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.15.1"
+            "version": "3.15.2"
           },
           {
             "licenses": [
@@ -266,7 +266,7 @@
               "MIT"
             ],
             "name": "brotli",
-            "version": "1.2.0,1"
+            "version": "1.2.1,1"
           },
           {
             "licenses": [
@@ -572,7 +572,7 @@
               "GPLv3"
             ],
             "name": "navidrome",
-            "version": "0.64.2"
+            "version": "0.64.2_1"
           },
           {
             "licenses": [
@@ -1191,7 +1191,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.27.2"
+            "version": "v1.27.3"
           }
         ],
         "java": [],
@@ -1227,9 +1227,9 @@
       }
     },
     "pkg-latest-aarch64": {
-      "app_version": "0.64.2",
+      "app_version": "0.64.2_1",
       "arch": "aarch64",
-      "generated": "2026-10-23T22:45:47Z",
+      "generated": "2026-11-03T09:45:24Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1413,7 +1413,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p5"
+            "version": "15.1p6"
           },
           {
             "licenses": [
@@ -1476,7 +1476,7 @@
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.15.1"
+            "version": "3.15.2"
           },
           {
             "licenses": [
@@ -1490,7 +1490,7 @@
               "MIT"
             ],
             "name": "brotli",
-            "version": "1.2.0,1"
+            "version": "1.2.1,1"
           },
           {
             "licenses": [
@@ -1504,7 +1504,7 @@
               "BSD2CLAUSE"
             ],
             "name": "dav1d",
-            "version": "1.5.4"
+            "version": "1.5.4_1"
           },
           {
             "licenses": [
@@ -1519,7 +1519,7 @@
               "LGPL3+"
             ],
             "name": "ffmpeg-nox11",
-            "version": "9.0.2_2,1"
+            "version": "9.0.2_3,1"
           },
           {
             "licenses": [
@@ -1796,7 +1796,7 @@
               "GPLv3"
             ],
             "name": "navidrome",
-            "version": "0.64.2"
+            "version": "0.64.2_1"
           },
           {
             "licenses": [
@@ -2415,7 +2415,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.27.2"
+            "version": "v1.27.3"
           }
         ],
         "java": [],
