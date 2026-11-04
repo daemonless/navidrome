@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-23T22:10:28Z",
+  "generated": "2026-11-04T13:09:00Z",
   "image": "navidrome",
   "tags": {
     "pkg-amd64": {
       "app_version": "0.64.2_1",
       "arch": "amd64",
-      "generated": "2026-10-23T22:07:25Z",
+      "generated": "2026-11-04T13:07:52Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -189,7 +189,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p5"
+            "version": "15.1p6"
           },
           {
             "licenses": [
@@ -252,7 +252,7 @@
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.15.1"
+            "version": "3.15.2"
           },
           {
             "licenses": [
@@ -266,14 +266,14 @@
               "MIT"
             ],
             "name": "brotli",
-            "version": "1.2.0,1"
+            "version": "1.2.1,1"
           },
           {
             "licenses": [
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -287,7 +287,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -1234,7 +1234,7 @@
     "pkg-latest-amd64": {
       "app_version": "0.64.2_1",
       "arch": "amd64",
-      "generated": "2026-10-23T22:00:34Z",
+      "generated": "2026-11-04T13:08:10Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1418,7 +1418,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p5"
+            "version": "15.1p6"
           },
           {
             "licenses": [
@@ -1481,7 +1481,7 @@
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.15.1"
+            "version": "3.15.2"
           },
           {
             "licenses": [
@@ -1495,21 +1495,21 @@
               "MIT"
             ],
             "name": "brotli",
-            "version": "1.2.0,1"
+            "version": "1.2.1,1"
           },
           {
             "licenses": [
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
               "BSD2CLAUSE"
             ],
             "name": "dav1d",
-            "version": "1.5.4"
+            "version": "1.5.4_1"
           },
           {
             "licenses": [
@@ -1524,7 +1524,7 @@
               "LGPL3+"
             ],
             "name": "ffmpeg-nox11",
-            "version": "9.0.2_2,1"
+            "version": "9.0.2_3,1"
           },
           {
             "licenses": [
@@ -1546,7 +1546,7 @@
               "LGPL21"
             ],
             "name": "fribidi",
-            "version": "1.0.17"
+            "version": "1.0.18"
           },
           {
             "licenses": [
@@ -1599,7 +1599,7 @@
               "MIT"
             ],
             "name": "harfbuzz",
-            "version": "14.6.0"
+            "version": "15.0.0"
           },
           {
             "licenses": [
