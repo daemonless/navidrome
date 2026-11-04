@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-03T09:47:10Z",
+  "generated": "2026-11-04T13:57:33Z",
   "image": "navidrome",
   "tags": {
     "pkg-aarch64": {
       "app_version": "0.64.2_1",
       "arch": "aarch64",
-      "generated": "2026-11-03T09:45:19Z",
+      "generated": "2026-11-04T13:55:48Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -273,7 +273,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -1229,7 +1229,7 @@
     "pkg-latest-aarch64": {
       "app_version": "0.64.2_1",
       "arch": "aarch64",
-      "generated": "2026-11-03T09:45:24Z",
+      "generated": "2026-11-04T13:55:53Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1497,7 +1497,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
