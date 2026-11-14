@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-04T13:09:00Z",
+  "generated": "2026-11-14T22:32:13Z",
   "image": "navidrome",
   "tags": {
     "pkg-amd64": {
       "app_version": "0.64.2_1",
       "arch": "amd64",
-      "generated": "2026-11-04T13:07:52Z",
+      "generated": "2026-11-14T22:30:32Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -252,7 +252,7 @@
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.15.2"
+            "version": "3.15.3"
           },
           {
             "licenses": [
@@ -637,7 +637,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
@@ -1232,9 +1232,9 @@
       }
     },
     "pkg-latest-amd64": {
-      "app_version": "0.64.2_1",
+      "app_version": "0.64.2_2",
       "arch": "amd64",
-      "generated": "2026-11-04T13:08:10Z",
+      "generated": "2026-11-14T22:30:59Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1481,7 +1481,7 @@
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.15.2"
+            "version": "3.15.3"
           },
           {
             "licenses": [
@@ -1516,7 +1516,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.9.0"
+            "version": "2.10.0"
           },
           {
             "licenses": [
@@ -1622,7 +1622,7 @@
               "ZLIB"
             ],
             "name": "jpeg-turbo",
-            "version": "3.1.4.1"
+            "version": "3.2.1"
           },
           {
             "licenses": [
@@ -1643,14 +1643,14 @@
               "MIT"
             ],
             "name": "lcms2",
-            "version": "2.19.1"
+            "version": "2.20"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "lerc",
-            "version": "4.2.0"
+            "version": "4.3.0"
           },
           {
             "licenses": [
@@ -1801,7 +1801,7 @@
               "GPLv3"
             ],
             "name": "navidrome",
-            "version": "0.64.2_1"
+            "version": "0.64.2_2"
           },
           {
             "licenses": [
@@ -1844,7 +1844,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -1866,7 +1866,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
@@ -1889,7 +1889,7 @@
               "BSD3CLAUSE"
             ],
             "name": "svt-av1",
-            "version": "4.2.0"
+            "version": "4.3.0"
           },
           {
             "licenses": [
@@ -2425,7 +2425,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.27.3"
+            "version": "v1.27.4"
           }
         ],
         "java": [],
